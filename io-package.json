@@ -1,0 +1,92 @@
+{
+    "common": {
+        "name": "ovarious",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "uk": "Початкова версія",
+                "zh-cn": "首次出版"
+            }
+        },
+        "titleLang": {
+            "en": "(o)various",
+            "de": "(o)verschieden",
+            "ru": "(о)различные",
+            "pt": "(o)vários",
+            "nl": "(o)verschillend",
+            "fr": "(o)divers",
+            "it": "(o)vari",
+            "es": "(o)varios",
+            "pl": "(o)różne",
+            "uk": "(о) різноманітний",
+            "zh-cn": "(o)各种"
+        },
+        "desc": {
+            "en": "ovarious",
+            "de": "Eierstöcke",
+            "ru": "яичниковый",
+            "pt": "ovário",
+            "nl": "eierstokken",
+            "fr": "ovaire",
+            "it": "ovarico",
+            "es": "ovario",
+            "pl": "jajnik",
+            "uk": "яєчники",
+            "zh-cn": "卵巢的"
+        },
+        "authors": [
+            "oweitman <oweitman@gmx.de>"
+        ],
+        "keywords": [
+            "ioBroker",
+            "template",
+            "Smart Home",
+            "home automation"
+        ],
+        "licenseInformation": {
+            "type": "free",
+            "license": "MIT"
+        },
+        "platform": "Javascript/Node.js",
+        "icon": "ovarious.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/oweitman/ioBroker.ovarious/main/admin/ovarious.png",
+        "readme": "https://github.com/oweitman/ioBroker.ovarious/blob/main/README.md",
+        "loglevel": "info",
+        "tier": 3,
+        "restartAdapters": [
+            "vis"
+        ],
+        "mode": "none",
+        "type": "utility",
+        "compact": true,
+        "connectionType": "local",
+        "dataSource": "assumption",
+        "adminUI": {
+            "config": "json"
+        },
+        "dependencies": [
+            {
+                "js-controller": ">=6.0.11"
+            },
+            "vis"
+        ],
+        "globalDependencies": [
+            {
+                "admin": "7.0.23"
+            }
+        ]
+    },
+    "native": {},
+    "objects": [],
+    "instanceObjects": []
+}

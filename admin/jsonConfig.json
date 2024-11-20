@@ -1,0 +1,11 @@
+{
+    "i18n": true,
+    "type": "panel",
+    "items": {
+        "_text": {
+            "type": "header",
+            "size": 3,
+            "text": "ova_noconfig"
+        }
+    }
+}
