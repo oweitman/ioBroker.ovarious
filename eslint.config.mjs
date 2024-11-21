@@ -11,6 +11,7 @@ export default [
             'widgets/ovarious/js/ejs.js',
             'widgets/ovarious/js/highlight.pack.js',
             'widgets/ovarious/js/mode-ejs.js',
+            'widgets/ovarious/js/ovarious-dist.js',
             '.dev-server/**',
             'backup/**',
             '*.test.js',
