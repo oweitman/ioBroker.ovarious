@@ -1,6 +1,6 @@
-![Logo](admin/ovarious.png)
-
 # (O)various functions and widgets
+
+![Logo](admin/ovarious.png)
 
 [![NPM version](https://img.shields.io/npm/v/iobroker.ovarious.svg)](https://www.npmjs.com/package/iobroker.ovarious)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.ovarious.svg)](https://www.npmjs.com/package/iobroker.ovarious)
@@ -97,8 +97,7 @@ one,two
 Arrays can also consist of a collection of objects. The example here contains only a simple array. An example of arrays with objects will be given later.
 
 ```html
-<% for (var i = 0; i < data.onearray.length ; i++ ) { %> <%- data.onearray[i] %>
-<% } %>
+<% for (var i = 0; i < data.onearray.length ; i++ ) { %> <%- data.onearray[i] %> <% } %>
 ```
 
 **Result:**
@@ -133,8 +132,7 @@ The bracket notation also works for attributes that do not conform to the naming
 Loop over the attributes of an object
 
 ```html
-<% for (var prop in data.oneobject) { %> <%- "data.oneobject." + prop + " = " +
-data.oneobject[prop] %> <% } %>
+<% for (var prop in data.oneobject) { %> <%- "data.oneobject." + prop + " = " + data.oneobject[prop] %> <% } %>
 ```
 
 **Result:**
@@ -159,9 +157,7 @@ In the examples above, only the pure output was covered. The template can now al
 </style>
 <% for (var prop in data.oneobject) { %>
 <div>
-  <span class="mycssclassproperty"
-    ><%- "data.oneobject." + prop + " = " %></span
-  >
+  <span class="mycssclassproperty"><%- "data.oneobject." + prop + " = " %></span>
   <span class="mycssclassdata"><%- data.oneobject[prop] %></span>
 </div>
 <% } %>
@@ -179,6 +175,7 @@ data.oneobject.attribute1 = 1 data.oneobject.attribute2 = 2
   Placeholder for the next version (at the beginning of the line):
   ### **WORK IN PROGRESS**
 -->
+
 ### 1.0.0 (2024-11-21)
 
 - move widget JSONTemplate from rssfeed adapter to ovarious adapter
