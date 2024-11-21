@@ -1,6 +1,6 @@
 {
   "name": "iobroker.ovarious",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "ovarious",
   "author": {
     "name": "oweitman",
@@ -10,9 +10,11 @@
   "license": "MIT",
   "keywords": [
     "ioBroker",
-    "template",
-    "Smart Home",
-    "home automation"
+    "home automation",
+    "ovarious",
+    "widgets",
+    "functions",
+    "various"
   ],
   "repository": {
     "type": "git",
@@ -71,7 +73,7 @@
     "check": "tsc --noEmit -p tsconfig.check.json",
     "lint": "eslint .",
     "translate": "translate-adapter",
-    "release": "release-script",
+    "release": "release-script --all",
     "repochecker": "npx github:oweitman/ioBroker.repochecker https://github.com/oweitman/ioBroker.ovarious --local",
     "translate-admin-deletekey": "node ./src-admin/bin/translate.js deletekey 'xx,xx'",
     "translate-admin": "node ./bin/translate.js -- source src-admin/src/i18n",

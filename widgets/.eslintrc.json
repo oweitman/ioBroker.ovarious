@@ -3,6 +3,9 @@
         "browser": true,
         "es6": false
     },
+    "parserOptions": {
+        "sourceType": "module"
+    },
     "rules": {
         // Visualizations may run in very old browsers without `let` and `const`
         "no-var": "off",

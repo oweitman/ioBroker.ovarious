@@ -1,3 +1,7 @@
 .prettierrc.js
 **/.eslintrc.js
-admin/words.js
+**/clipboard-polyfill.promise.js
+**/highlight.pack.js
+**/jquery-3.2.1.min.js
+**/ejs.js
+**/mode-ejs.js

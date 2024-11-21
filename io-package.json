@@ -1,92 +1,106 @@
 {
-    "common": {
-        "name": "ovarious",
-        "version": "0.0.1",
-        "news": {
-            "0.0.1": {
-                "en": "initial release",
-                "de": "Erstveröffentlichung",
-                "ru": "Начальная версия",
-                "pt": "lançamento inicial",
-                "nl": "Eerste uitgave",
-                "fr": "Première version",
-                "it": "Versione iniziale",
-                "es": "Versión inicial",
-                "pl": "Pierwsze wydanie",
-                "uk": "Початкова версія",
-                "zh-cn": "首次出版"
-            }
-        },
-        "titleLang": {
-            "en": "(o)various",
-            "de": "(o)verschieden",
-            "ru": "(о)различные",
-            "pt": "(o)vários",
-            "nl": "(o)verschillend",
-            "fr": "(o)divers",
-            "it": "(o)vari",
-            "es": "(o)varios",
-            "pl": "(o)różne",
-            "uk": "(о) різноманітний",
-            "zh-cn": "(o)各种"
-        },
-        "desc": {
-            "en": "ovarious",
-            "de": "Eierstöcke",
-            "ru": "яичниковый",
-            "pt": "ovário",
-            "nl": "eierstokken",
-            "fr": "ovaire",
-            "it": "ovarico",
-            "es": "ovario",
-            "pl": "jajnik",
-            "uk": "яєчники",
-            "zh-cn": "卵巢的"
-        },
-        "authors": [
-            "oweitman <oweitman@gmx.de>"
-        ],
-        "keywords": [
-            "ioBroker",
-            "template",
-            "Smart Home",
-            "home automation"
-        ],
-        "licenseInformation": {
-            "type": "free",
-            "license": "MIT"
-        },
-        "platform": "Javascript/Node.js",
-        "icon": "ovarious.png",
-        "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/oweitman/ioBroker.ovarious/main/admin/ovarious.png",
-        "readme": "https://github.com/oweitman/ioBroker.ovarious/blob/main/README.md",
-        "loglevel": "info",
-        "tier": 3,
-        "restartAdapters": [
-            "vis"
-        ],
-        "mode": "none",
-        "type": "utility",
-        "compact": true,
-        "connectionType": "local",
-        "dataSource": "assumption",
-        "adminUI": {
-            "config": "json"
-        },
-        "dependencies": [
-            {
-                "js-controller": ">=6.0.11"
-            },
-            "vis"
-        ],
-        "globalDependencies": [
-            {
-                "admin": "7.0.23"
-            }
-        ]
+  "common": {
+    "name": "ovarious",
+    "version": "1.0.0",
+    "news": {
+      "1.0.0": {
+        "en": "move widget JSONTemplate from rssfeed adapter to ovarious adapter\nadjust reposetting, enable autojobs",
+        "de": "widget JSONTemplate vom Rssfeed-Adapter zum ovarialen Adapter verschieben\nwiederherstellen, autojobs aktivieren",
+        "ru": "переместить виджет JSONTemplate из rssfeed адаптера в отварный адаптер\nкорректировать корректировку, включить автоработы",
+        "pt": "mover widget JSONTemplate do adaptador rssfeed para o adaptador ovarious\najustar reposetting, ativar autojobs",
+        "nl": "verplaatsen widget JSONTemplate van rssfeed adapter naar ovarious adapter\nopnieuw instellen aanpassen, autojobs inschakelen",
+        "fr": "déplacer le widget JSONTemplate de l'adaptateur rssfeed à l'adaptateur divers\najuster le reposetting, activer autojobs",
+        "it": "spostare widget JSONTemplate da adattatore rssfeed a adattatore ovarious\nregolare reposetting, abilitare autojobs",
+        "es": "mover widget JSONTemplate de adaptador rsfeed a adaptador ovárico\najuste reposetting, active autojobs",
+        "pl": "przenieść widget JSONTemplate z adaptera rssfeed do adaptera ovarious\ndostosować repozycjonowanie, włączyć autozadania",
+        "uk": "перемістити віджет JSONTemplate від rssfeed адаптер до незручного адаптера\nconfig reposetting, увімкнути автозавантаження",
+        "zh-cn": "将部件 JSON 调试从 rssfeed 适配器移到各种适配器\n调整重写, 启用自动工作"
+      },
+      "0.0.1": {
+        "en": "initial release",
+        "de": "Erstveröffentlichung",
+        "ru": "Начальная версия",
+        "pt": "lançamento inicial",
+        "nl": "Eerste uitgave",
+        "fr": "Première version",
+        "it": "Versione iniziale",
+        "es": "Versión inicial",
+        "pl": "Pierwsze wydanie",
+        "uk": "Початкова версія",
+        "zh-cn": "首次出版"
+      }
     },
-    "native": {},
-    "objects": [],
-    "instanceObjects": []
+    "titleLang": {
+      "en": "(o)various",
+      "de": "(o)various",
+      "ru": "(о)various",
+      "pt": "(o)various",
+      "nl": "(o)various",
+      "fr": "(o)various",
+      "it": "(o)various",
+      "es": "(o)various",
+      "pl": "(o)various",
+      "uk": "(о) various",
+      "zh-cn": "(o)various"
+    },
+    "desc": {
+      "en": "(o)various functions and widgets",
+      "de": "(o)verschiedene Funktionen und Widgets",
+      "ru": "(о)различные функции и виджеты",
+      "pt": "(o)várias funções e widgets",
+      "nl": "(o)verschillende functies en widgets",
+      "fr": "(o) diverses fonctions et widgets",
+      "it": "(o)varie funzioni e widget",
+      "es": "(o) varias funciones y widgets",
+      "pl": "(o)różne funkcje i widżety",
+      "uk": "(o) різноманітні функції та віджети",
+      "zh-cn": "(o)各种功能和小部件"
+    },
+    "authors": [
+      "oweitman <oweitman@gmx.de>"
+    ],
+    "keywords": [
+      "home automation",
+      "ovarious",
+      "widgets",
+      "functions",
+      "various"
+    ],
+    "licenseInformation": {
+      "type": "free",
+      "license": "MIT"
+    },
+    "platform": "Javascript/Node.js",
+    "icon": "ovarious.png",
+    "enabled": true,
+    "extIcon": "https://raw.githubusercontent.com/oweitman/ioBroker.ovarious/main/admin/ovarious.png",
+    "readme": "https://github.com/oweitman/ioBroker.ovarious/blob/main/README.md",
+    "loglevel": "info",
+    "tier": 3,
+    "restartAdapters": [
+      "vis"
+    ],
+    "mode": "none",
+    "type": "utility",
+    "compact": true,
+    "connectionType": "local",
+    "dataSource": "assumption",
+    "adminUI": {
+      "config": "json"
+    },
+    "dependencies": [
+      {
+        "js-controller": ">=6.0.11"
+      },
+      "vis"
+    ],
+    "globalDependencies": [
+      {
+        "admin": ">=6.0.0"
+      }
+    ]
+  },
+  "native": {},
+  "objects": [],
+  "instanceObjects": []
 }
