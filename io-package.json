@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "ovarious",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "news": {
+      "1.0.1": {
+        "en": "release to npm",
+        "de": "veröffentlichung auf npm",
+        "ru": "релиз npm",
+        "pt": "lançamento para npm",
+        "nl": "release to npm",
+        "fr": "libération à npm",
+        "it": "rilascio a npm",
+        "es": "lanzamiento a npm",
+        "pl": "release to npm",
+        "uk": "до npm",
+        "zh-cn": "释放到 npm"
+      },
       "1.0.0": {
         "en": "move widget JSONTemplate from rssfeed adapter to ovarious adapter\nadjust reposetting, enable autojobs.",
         "de": "widget JSONTemplate vom Rssfeed-Adapter zum ovarialen Adapter verschieben\nwiederherstellen, autojobs aktivieren.",
