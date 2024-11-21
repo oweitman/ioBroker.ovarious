@@ -4,17 +4,17 @@
     "version": "1.0.0",
     "news": {
       "1.0.0": {
-        "en": "move widget JSONTemplate from rssfeed adapter to ovarious adapter\nadjust reposetting, enable autojobs",
-        "de": "widget JSONTemplate vom Rssfeed-Adapter zum ovarialen Adapter verschieben\nwiederherstellen, autojobs aktivieren",
-        "ru": "переместить виджет JSONTemplate из rssfeed адаптера в отварный адаптер\nкорректировать корректировку, включить автоработы",
-        "pt": "mover widget JSONTemplate do adaptador rssfeed para o adaptador ovarious\najustar reposetting, ativar autojobs",
-        "nl": "verplaatsen widget JSONTemplate van rssfeed adapter naar ovarious adapter\nopnieuw instellen aanpassen, autojobs inschakelen",
-        "fr": "déplacer le widget JSONTemplate de l'adaptateur rssfeed à l'adaptateur divers\najuster le reposetting, activer autojobs",
-        "it": "spostare widget JSONTemplate da adattatore rssfeed a adattatore ovarious\nregolare reposetting, abilitare autojobs",
-        "es": "mover widget JSONTemplate de adaptador rsfeed a adaptador ovárico\najuste reposetting, active autojobs",
-        "pl": "przenieść widget JSONTemplate z adaptera rssfeed do adaptera ovarious\ndostosować repozycjonowanie, włączyć autozadania",
-        "uk": "перемістити віджет JSONTemplate від rssfeed адаптер до незручного адаптера\nconfig reposetting, увімкнути автозавантаження",
-        "zh-cn": "将部件 JSON 调试从 rssfeed 适配器移到各种适配器\n调整重写, 启用自动工作"
+        "en": "move widget JSONTemplate from rssfeed adapter to ovarious adapter\nadjust reposetting, enable autojobs.",
+        "de": "widget JSONTemplate vom Rssfeed-Adapter zum ovarialen Adapter verschieben\nwiederherstellen, autojobs aktivieren.",
+        "ru": "переместить виджет JSONTemplate из rssfeed адаптера в отварный адаптер\nнастроить перезагрузку, включить автоработы.",
+        "pt": "mover widget JSONTemplate do adaptador rssfeed para o adaptador ovarious\najustar reposetting, ativar autojobs.",
+        "nl": "verplaatsen widget JSONTemplate van rssfeed adapter naar ovarious adapter\naanpassen van herinstelling, autojobs inschakelen.",
+        "fr": "déplacer le widget JSONTemplate de l'adaptateur rssfeed à l'adaptateur divers\najuster le reposting, activer les emplois automatiques.",
+        "it": "spostare widget JSONTemplate da adattatore rssfeed a adattatore ovarious\nregolare reposetting, attivare autojobs.",
+        "es": "mover widget JSONTemplate de adaptador rsfeed a adaptador ovárico\najuste el reposetting, active el autojobs.",
+        "pl": "przenieść widget JSONTemplate z adaptera rssfeed do adaptera ovarious\ndostosować repozycjonowanie, włączyć autozadania.",
+        "uk": "перемістити віджет JSONTemplate від rssfeed адаптер до незручного адаптера\nрегулюйте репозитинг, ввімкніть автозавантаження.",
+        "zh-cn": "将部件 JSON 调试从 rssfeed 适配器移到各种适配器\n调整重喷,启用自动工作."
       },
       "0.0.1": {
         "en": "initial release",

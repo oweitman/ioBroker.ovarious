@@ -182,7 +182,7 @@ data.oneobject.attribute1 = 1 data.oneobject.attribute2 = 2
 ### 1.0.0 (2024-11-21)
 
 - move widget JSONTemplate from rssfeed adapter to ovarious adapter
-- adjust reposetting, enable autojobs
+- adjust reposetting, enable autojobs.
 
 ## License
 
