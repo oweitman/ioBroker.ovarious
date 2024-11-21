@@ -1,0 +1,12 @@
+{
+    "name": "ovarious-vis1-widget",
+    "version": "1.0.0",
+    "main": "ovarious/js/ovarious.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "esbuild ovarious/js/bundle.js --minify --bundle --outfile=ovarious/js/ovarious-dist.js --target=es6 --sourcemap"
+    },
+    "author": "",
+    "license": "MIT",
+    "description": ""
+}
