@@ -5,7 +5,12 @@
         "_text": {
             "type": "header",
             "size": 3,
-            "text": "ova_noconfig"
+            "text": "ova_noconfig",
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
         }
     }
 }
